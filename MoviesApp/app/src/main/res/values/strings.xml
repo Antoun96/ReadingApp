@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Movies App</string>
+    <string name="action_settings">Settings</string>
+    <string name="order">Order By</string>
+    <string name="pref_order_key">order by</string>
+    <string name="pref_label_popular">Popular</string>
+    <string name="pref_popular">popular</string>
+    <string name="pref_label_top">Top Rated</string>
+    <string name="pref_top">top rated</string>
+    <string name="pref_label_favorites">Favorites</string>
+    <string name="pref_favorites">favorites</string>
+
+    <string-array name="pref_label">
+
+        <item>@string/pref_label_top</item>
+        <item>@string/pref_label_popular</item>
+        <item>@string/pref_label_favorites</item>
+    </string-array>
+
+    <string-array name="pref_values">
+
+        <item>@string/pref_top</item>
+        <item>@string/pref_popular</item>
+        <item>@string/pref_favorites</item>
+    </string-array>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_details">Details</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

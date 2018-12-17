@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="16dp"
+
+    tools:context="where.example.com.angelshymns.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/scroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <ImageView
+    android:layout_width="50dp"
+    android:layout_height="120dp"
+    android:id="@+id/crossimage"
+    android:paddingTop="30dp"
+    android:layout_gravity="center_horizontal"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="كنيسة الملاك ميخائيل بالظاهر"
+    android:textSize="25dp"
+    android:paddingTop="5dp"
+    android:layout_below="@id/crossimage"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:id="@+id/knisa"
+    android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="قطاع الطفولة"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/keta3"
+        android:layout_below="@id/knisa"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="مهرجان الكرازة صيف  2017 "
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/mahragan"
+        android:layout_margin="5dp"
+        android:layout_below="@id/keta3"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/kg"
+                android:text="حضانة"
+                android:textSize="25dp"
+                android:onClick="go_kg"
+              />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/oula"
+            android:textSize="25dp"
+                android:onClick="go_oula"
+            android:text="اولى و ثانية ابتدائى" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/mawhob"
+                android:textSize="25dp"
+                android:onClick="go_mawhob"
+                android:text="الطفل الموهوب" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign"
+        android:paddingTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignRight="@id/scroll"
+        android:layout_alignBottom="@id/scroll"/>
+</RelativeLayout>

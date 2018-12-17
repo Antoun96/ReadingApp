@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="where.example.com.deaconsschool.MainActivityFragment">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="120dp"
+        android:id="@+id/crossimage"
+        android:paddingTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="كنيسة الملاك ميخائيل بالظاهر"
+        android:textSize="25dp"
+        android:paddingTop="5dp"
+        android:layout_below="@id/crossimage"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/knisa"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="التربية الكنسية - خدمة الشموسية"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/keta3"
+        android:layout_below="@id/knisa"
+        android:layout_margin="5dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hymns_levels"
+        android:layout_below="@+id/keta3"
+        android:layout_centerVertical="true">
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1056344131049",
+    "firebase_url": "https://deacons-school.firebaseio.com",
+    "project_id": "deacons-school",
+    "storage_bucket": "deacons-school.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056344131049:android:83f29f386e4e16c0",
+        "android_client_info": {
+          "package_name": "where.example.com.deaconsschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056344131049-n3opdeupl32qnijjff9m9tso5bb2gbfp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU-G3Ah6zVde5q_TA9u_Xm428NVdVwgAA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
